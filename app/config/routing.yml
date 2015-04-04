@@ -1,3 +1,16 @@
-app:
-    resource: @AppBundle/Controller/
-    type:     annotation
+restful_services:
+    resource: "@AppBundle/Resources/config/routing.yml"
+    type:     rest
+    prefix:   /api
+
+nelmio_apidoc:
+    resource: "@NelmioApiDocBundle/Resources/config/routing.yml"
+    prefix:   /
+
+fos_user_security:
+    resource: "@FOSUserBundle/Resources/config/routing/security.xml"
+    prefix: /console
+
+fos_user_resetting:
+    resource: "@FOSUserBundle/Resources/config/routing/resetting.xml"
+    prefix: /console/resetting
