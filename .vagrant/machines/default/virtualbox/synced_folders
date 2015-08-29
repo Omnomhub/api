@@ -1,1 +1,0 @@
-{"nfs":{"vagrant-root":{"id":"vagrant-root","nfs":true,"guestpath":"/var/www/omnomhub","hostpath":"/Users/Liip/Projects/omnomhub-api","disabled":false,"type":"nfs","map_uid":502,"map_gid":20,"nfs_udp":true,"nfs_version":3,"uuid":"2171746583"}},"virtualbox":{"/vagrant":{"guestpath":"/vagrant","hostpath":"/Users/Liip/Projects/omnomhub-api","disabled":false}}}
