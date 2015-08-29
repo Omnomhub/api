@@ -1,6 +1,6 @@
 <?php
 
-namespace AppBundle\Model\Ingredient;
+namespace AppBundle\Model\Recipe\Ingredient;
 
 class Unit
 {

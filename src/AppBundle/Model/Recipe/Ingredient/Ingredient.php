@@ -2,8 +2,8 @@
 
 namespace AppBundle\Model\Ingredient;
 
-use AppBundle\Model\Ingredient\Amount;
-use AppBundle\Model\Ingredient\Unit;
+use AppBundle\Model\Recipe\Ingredient\Amount;
+use AppBundle\Model\Recipe\Ingredient\Unit;
 
 class Ingredient
 {
